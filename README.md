@@ -48,4 +48,3 @@ versions of the notebooks without ANSWER cells in an `out` subdirectory, as
 well as copying the original notebooks to `out/answers`.
 
 (This procedure may be enhanced later.)
-complete original notebooks into 
