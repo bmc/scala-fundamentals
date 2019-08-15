@@ -29,7 +29,7 @@ like this:
 ```
 
 - Copy the `token=blahblahblah` part. Then, connect to
-  `http://localhost:8888/labs?token=blahblahblah`
+  `http://localhost:8888/lab?token=blahblahblah`
 
 - The Jupyter Labs interface should come up. Drill down into the
   `scala-fundamentals` folder, and you should be able to open any of
