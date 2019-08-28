@@ -16,13 +16,12 @@ This repo serves several purposes:
   directly.
 - The notebooks in this repo follow the basic outline and structure of the
   original workshop material, but some of the content has been updated and/or
-  changed slightly.
+  changed a bit.
 
 ## Running or Editing the Notebooks Locally
 
 Right now, the easiest way to run and edit these notebooks is to use Docker.
-There's a Docker image, `almondsh/almond` (from [Almond](https://almond.sh/)
-that provides:
+There's a Docker image, `almondsh/almond` (from [Almond](https://almond.sh/)) that provides:
 
 - a ready-to-run JupyterLabs instance
 - with a Jupyter kernel supporting Scala 2.11 and 2.12 (with 2.13 support
