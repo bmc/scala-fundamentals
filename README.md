@@ -85,6 +85,13 @@ $ ./run-docker.sh
 **Reminder**: The REPL that backs the Jupyter notebook is Ammonite, not the
 Scala REPL. Most of the Ammonite coolness should work.
 
+### Options to `run-docker.sh`
+
+- You can specify a different host port with `-p <port>` or `--port <port>`.
+- You can specify a different tag for the `almondsh/almond` Docker image,
+  with `-t <tag>` or `--tag <tag>`. The default is "latest".
+- Use `--help` for a full usage display.
+
 ## Generating notebooks for a workshop or class
 
 Run the `build.sh` script. It uses the `strip_answers.py` script to create
