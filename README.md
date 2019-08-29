@@ -91,6 +91,10 @@ Scala REPL. Most of the Ammonite coolness should work.
 - You can specify a different tag for the `almondsh/almond` Docker image,
   with `-t <tag>` or `--tag <tag>`. The default is "latest".
 - Use `--help` for a full usage display.
+- If you specify `bash` as the first and only argument (e.g., `./run-docker.sh bash`),
+  you'll be thrown `bash` inside an instance of the Docker image. This is useful for
+  debugging.
+
 
 ## Generating notebooks for a workshop or class
 
